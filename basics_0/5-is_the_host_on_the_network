@@ -1,4 +1,4 @@
-#!/usr/bin/bash env
+#!/usr/bin/env bash
 #retrieve the ip_address from args so it's gonna be the argument 1 and then we check if it is null we print error msg otherwise ping the ip_address 5 times
 ipaddress=$1
 if [ -z "$ipaddress" ]
