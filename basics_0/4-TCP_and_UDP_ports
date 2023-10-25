@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#netstat will find open ports and -p to show pid and names of sockets and then we use grep to filter the output and display just the listenening sockets
+#netstat will find open ports and -p to show pid and names of sockets and then we use grep to filter the output and display just the listening sockets
 netstat -p | grep LISTEN
