@@ -3,5 +3,5 @@
 ipaddress=$1
 if [ -n "$ipaddress" ]
 then
-    ping -c 5 ipaddress;
+    ping -c 5 $ipaddress;
 fi
