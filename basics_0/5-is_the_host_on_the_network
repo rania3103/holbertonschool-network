@@ -1,7 +1,9 @@
 #!/usr/bin/bash env
 #retrieve the ip@ from args and then if it not null we will ping it 5 times
 ipaddress=$1
-if [ -n "$ipaddress" ]
+if [ -z "$ipaddress" ];
 then
-    ping -c 5 "$ipaddress";
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+    ping -c 5 "$ipaddress"
 fi
