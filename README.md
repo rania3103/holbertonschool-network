@@ -12,7 +12,6 @@ The highest level: layer 7 which is for application specific communication like 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
 ```
-![App Screenshot](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231023%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231023T090514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=044782f7b948f4aeffd99994b1cae3edccb59af0d3fc1036ad328d0d8e6c876b)
 ```
 In this project we will mainly focus on:
 
@@ -20,7 +19,6 @@ The Transport layer and especially TCP/UDP
 On the Network layer with IP and ICMP
 The image bellow describes more concretely how you can relate to every level.
 ```
-![App Screenshot](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231023%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231023T090514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4fad9e09b7a3927bdc08baeb85be49fdd47f3f308af949c3155869f04ce64370)
 ```
 Questions:
 
@@ -39,7 +37,6 @@ How is the OSI model organized?
 
 ## [question1:](https://via.placeholder.com/10/00b48a?text=+)
 
-![App Screenshot](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231023%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231023T090514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5d98a41b04fa9a91ab25c94c835c1b877e30e0631520d87daafa4f19d026cac8)
 ```
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -65,7 +62,6 @@ What network do you use when you browse www.google.com from your smartphone (not
 ```
 ## [question2:](https://via.placeholder.com/10/00b48a?text=+)
 
-![App Screenshot](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231023%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231023T090514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1a5c8616e966a9b237d4d5e512099c8a02bc3980c20a91fb4fab9efeb2c2f702)
 ```
 Questions:
 
@@ -82,7 +78,6 @@ What is an IP address?
 3.Is a number that network devices use to connect to networks
 ```
 ## [question3:](https://via.placeholder.com/10/00b48a?text=+)
-![App Sscreenshot](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231023%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231023T090514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7d525d1632c781772278048dc9daa7a9c57c17ed2dc7407a883e7d0b810d28e8)
 ```
 Let’s fill the empty parts in the drawing above.
 
@@ -148,7 +143,6 @@ unix  2      [ ACC ]     SEQPACKET  LISTENING     7156     378/systemd-udevd   /
 sylvain@ubuntu$
 ```
 ## [question5:](https://via.placeholder.com/10/00b48a?text=+)
-![App Sscreenshot](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
 ```
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
